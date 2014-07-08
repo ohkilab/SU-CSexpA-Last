@@ -11,7 +11,7 @@
 if(isset($_REQUEST["tag"])){
 	echo "[Program A] Input tag = [".$_REQUEST["tag"]."]";
 }else{
-	echo "[Program A] Please input a tag."
+	echo "[Program A] Please input a tag.";
 }
 ?>
 	</body>
