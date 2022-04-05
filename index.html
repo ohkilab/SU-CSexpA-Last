@@ -42,13 +42,13 @@
 					if ($(this).parent("li").hasClass("disabled")) {
 						e.preventDefault();
 						return false;
-				}	
+				}
 				});
 				$(window).on("resize load",function() {
 					$('#resultFrame').height($(window).height() - $("#tab").height() - 10);
 				});
 			});
-			
+
 
 		</script>
 	</head>
@@ -91,9 +91,6 @@
 					<tbody>
 					</tbody>
 				</table>
-			</div>
-			<div class="tab-pane" id="result">
-				<iframe id="resultFrame" src="http://lab.yokoyama.ac/" width="100%" style="height:500px;" seamless>
 			</div>
 		</div>
 	</body>
